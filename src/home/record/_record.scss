@@ -1,0 +1,49 @@
+.setion__record {
+  width: 100%;
+  background: #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.div__elemens {
+  display: flex;
+  width: 13.12rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 3rem;
+}
+
+.div__elemens img {
+  width: 4.875rem;
+  height: 5rem;
+}
+
+.div__elemens h3 {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 3.75rem;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.div__elemens h5 {
+  color: #999;
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+@media (min-width: 1000px) {
+  .setion__record {
+    flex-direction: row;
+    max-width: 73.125rem;
+    height: 21.75rem;
+    margin: 0 auto;
+  }
+}

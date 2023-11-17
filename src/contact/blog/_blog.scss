@@ -1,0 +1,52 @@
+.section__data_ccontact {
+  width: 100%;
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+
+  @media (min-width: 1200px) {
+    flex-direction: row;
+  }
+  &_data {
+    width: 100%;
+    max-width: 25rem;
+    height: 12rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    &_imgIcon {
+      height: fit-content;
+      position: relative;
+      left: 3rem;
+      bottom: 1rem;
+    }
+    &_divData {
+      width: 12.5rem;
+      height: 5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      left: 5rem;
+      &_h5 {
+        color: #222;
+        font-family: "Old Standard TT";
+        font-size: 1.25rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+      }
+      &_p {
+        color: #777;
+        font-family: Roboto;
+        font-size: 0.875rem;
+        text-align: left;
+        font-weight: 400;
+      }
+    }
+  }
+}

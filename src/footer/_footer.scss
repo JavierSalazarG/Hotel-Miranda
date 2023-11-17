@@ -1,0 +1,200 @@
+.footer {
+  width: 100%;
+  padding-top: 5.7rem;
+  display: flex;
+  flex-direction: column;
+}
+//div_1
+.div__section_1 {
+  padding-left: 1.4rem;
+  padding-right: 1.25rem;
+  max-width: 19rem;
+}
+.a__logo {
+  width: 16rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.a__logo h1 {
+  width: 5rem;
+  height: 5rem;
+  background: #bead8e;
+  box-shadow: 0px 14px 24px 0px rgba(139, 139, 139, 0.15);
+  font-family: "Archivo";
+  font-size: 2.5rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.a__logo h2 {
+  color: #111;
+  font-family: Archivo;
+  font-size: 1.62rem;
+  font-weight: 700;
+  letter-spacing: 0.16rem;
+  width: 9rem;
+}
+
+.p__lorem {
+  color: #777;
+  font-family: "Archivo";
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 2.5rem;
+}
+
+.nav__redes {
+  width: 13rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+.nav__redes a svg:hover path {
+  fill: #bead8e;
+  cursor: pointer;
+}
+
+//div_1------------------
+
+//div_2
+
+.div__section_2 {
+  width: 100%;
+  max-width: 25rem;
+  padding-top: 1rem;
+  padding-left: 1.4rem;
+  padding-right: 1.25rem;
+}
+
+.h3__services {
+  color: #222;
+  font-family: "Old Standard TT";
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.div__list {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.div__list ul li {
+  color: #777;
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 3rem;
+  width: 9.9rem;
+  list-style: none;
+}
+
+//div 2 --------------------
+
+//div 3 -----------------------
+.div__section_3 {
+  width: 100%;
+  max-width: 25rem;
+  height: 19rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  padding-left: 1.4rem;
+  padding-right: 1.25rem;
+}
+.h3__contact {
+  color: #222;
+  font-family: "Old Standard TT";
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-bottom: 2.3rem;
+}
+.section__contacs {
+  display: flex;
+  width: 100%;
+  max-width: 12.4rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section__contacs ul li {
+  list-style: none;
+}
+
+.li__title {
+  color: #222;
+  font-family: "Old Standard TT";
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.li__data {
+  color: #777;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+//div 3----------------
+
+//div 4
+.div__section_4 {
+  padding-left: 1.4rem;
+  padding-right: 1.25rem;
+  width: 100%;
+  background: #f8f8f8;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-around;
+  height: 5.8rem;
+}
+
+.div__section_4 p {
+  color: #222;
+  font-family: "Roboto";
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+//div 4-----------------
+
+@media (min-width: 700px) {
+  .sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 1000px) {
+  .footer {
+    align-items: center;
+    justify-content: space-around;
+  }
+  .sections {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .div__section_4 {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

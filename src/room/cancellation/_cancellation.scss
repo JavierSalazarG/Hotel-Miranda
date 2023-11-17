@@ -1,0 +1,33 @@
+.section__cancellation {
+  width: 100%;
+  max-width: 48rem;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 3rem;
+
+  @media (min-width: 700px) {
+    margin-top: 5rem;
+  }
+
+  &_h3 {
+    color: #222;
+    font-family: "Old Standard TT";
+    font-size: 1.875rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  &_p {
+    color: #777;
+    font-family: "Roboto";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    max-width: 41.5rem;
+    margin-top: 2.3rem;
+  }
+}

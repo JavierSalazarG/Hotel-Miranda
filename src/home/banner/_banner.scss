@@ -1,0 +1,112 @@
+.section__banner_perfect {
+  width: 100%;
+  height: 40rem;
+  color: #fff;
+  padding-left: 1.25rem;
+  padding-right: 2.5rem;
+  padding-top: 4.7rem;
+  font-family: Archivo;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  overflow: hidden;
+}
+
+.section__banner_perfect::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./public/img/fondo__banner.jpg);
+  background-size: cover;
+  background-color: rgba(34, 34, 34, 0.8);
+  z-index: -1;
+}
+.div__message_conford {
+  display: none;
+}
+.h2_alert {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.175rem;
+  height: 2.25rem;
+  width: 14.8rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.623);
+}
+
+.h1__title {
+  font-size: 3.5rem;
+  font-weight: 400;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.623);
+}
+
+.div__box {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 0.87rem;
+  font-weight: 700;
+}
+
+.button_banner {
+  width: 13.5rem;
+  height: 3.75rem;
+  text-align: center;
+  color: #fff;
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.623);
+}
+
+.button__beige {
+  background-color: #bead8e;
+}
+
+.buttonblack {
+  background: #22222262;
+  border: 2px solid #767676 !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.418);
+}
+
+@media (min-width: 1000px) {
+  .section__banner_perfect {
+    height: 50rem;
+    padding-top: 8rem;
+    padding-left: 10rem;
+    justify-content: space-evenly;
+  }
+  .h2_alert {
+    width: 100%;
+  }
+  .h1__title {
+    width: 22rem;
+  }
+  .div__message_conford {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 1rem;
+    width: 100%;
+    height: 7.5rem;
+    background-color: #222222;
+    color: #fff;
+    text-align: center;
+  }
+
+  .div__box {
+    margin-top: 4rem;
+    margin-right: 2.5rem;
+    flex-direction: row;
+    width: 33rem;
+  }
+
+  .div__message_conford p {
+    margin: 0 auto;
+    text-align: left;
+    width: 85%;
+  }
+}

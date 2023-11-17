@@ -1,0 +1,107 @@
+.section__facilities_about {
+  width: 100% !important;
+  padding-top: 3.7rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #222 !important;
+}
+
+.p__facilities {
+  color: #ffffff;
+  font-family: Archivo;
+  font-size: 0.87rem;
+  font-weight: 700;
+  letter-spacing: 0.17rem;
+}
+.div__swiper_scrolls {
+  width: 100%;
+  height: 24rem;
+}
+
+.h2__features {
+  color: #ffffff;
+  font-family: "Old Standard TT";
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+  font-weight: 400;
+  line-height: 3.75rem;
+}
+
+.div__wrappers {
+  display: flex;
+  align-items: center;
+}
+
+.div__slicce_box_about {
+  text-align: center;
+  font-size: 18px;
+  background: #292929;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div__slicce_box_about {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div__slicer_imgs_about {
+  max-width: 25rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 9rem;
+}
+
+.div__slicer_imgs_about img {
+  width: 100%;
+  max-width: 4.37rem;
+  align-self: flex-end;
+}
+.div__slicer_imgs_about h3 {
+  color: #222222;
+  font-weight: 700;
+  line-height: 8.12rem;
+  font-family: "Archivo";
+  font-size: 7.5rem;
+}
+
+.div__slicer_texts {
+  margin: 0 auto;
+  margin-top: 2.3rem;
+  width: 100%;
+  max-width: 16rem;
+}
+
+.div__slicer_texts h4 {
+  color: #ffffff;
+  font-family: "Old Standard TT";
+  font-size: 1.875rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  text-align: start;
+}
+
+.div__slicer_texts p {
+  color: #fff;
+
+  font-family: "Archivo";
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-top: 1.7rem;
+}
+.swiper-pagination-bullet-active {
+  --swiper-pagination-color: #bead8e !important;
+}

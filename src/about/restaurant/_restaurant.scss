@@ -1,0 +1,79 @@
+.section__restaurant_about {
+  height: 46.625rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section__restaurant_about img {
+  width: 18.43rem;
+  height: 14.5rem;
+  object-fit: cover;
+}
+
+.div__text_restaurant {
+  width: 100%;
+  max-width: 19rem;
+  height: 30srem;
+  padding-left: 2.5rem;
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 2rem;
+}
+
+.p__restaurant_title {
+  color: #777;
+  font-weight: 700;
+  font-family: "Archivo";
+  font-size: 0.875rem;
+}
+
+.div__text_restaurant h3 {
+  margin-top: 1.6rem;
+  color: #222;
+  font-family: "Old Standard TT";
+  font-size: 2.5rem;
+  font-weight: 400;
+  letter-spacing: -0.06rem;
+  text-align: left;
+}
+
+.p__text_restaurant {
+  margin-top: 1.6rem;
+  max-width: 18.4rem;
+  color: #777;
+  font-family: "Archivo";
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.button__take_restaurant {
+  width: 13.5rem;
+  height: 4rem;
+  background: #bead8e;
+  border: none;
+  color: #fff;
+  margin-top: 1rem;
+  box-shadow: 0px 14px 24px 0px rgba(190, 173, 142, 0.36);
+}
+
+@media (min-width: 700px) {
+  .div__text_restaurant {
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .section__restaurant_about {
+    flex-direction: row;
+    height: 30rem;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .section__restaurant_about img {
+    width: 33.125rem;
+    height: 26.25rem;
+  }
+}

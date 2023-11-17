@@ -1,0 +1,86 @@
+.section__counter_about {
+  width: 100%;
+  max-width: 63.49rem;
+  margin: 0 auto;
+  height: 57rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin-top: 3.7rem;
+}
+.p__counter {
+  color: #777;
+  width: 30rem;
+  font-family: "Archivo";
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+.section__counter_about h3 {
+  color: #222;
+  font-family: "Old Standard TT";
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 3.75rem;
+  margin-top: 1.5rem;
+}
+
+.div__articles_element {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 27rem;
+}
+
+.article__element {
+  width: 20.93rem;
+  height: 8.375rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.p__cant {
+  color: #222;
+  font-weight: 400;
+  line-height: 3.75rem;
+  font-family: "Old Standard TT";
+  font-size: 3.75rem;
+}
+
+.p__text_arcticle {
+  color: #777;
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.div__swiper_about {
+  margin-top: 2.3rem;
+  width: 100%;
+  height: 15rem;
+}
+.div__slider_counter {
+  width: 100%;
+  height: 15rem;
+}
+.img__slice_ccounter_about {
+  width: 21rem;
+  height: 15rem;
+  object-fit: cover;
+}
+@media (min-width: 1000px) {
+  .div__articles_element {
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .div__slider_counter {
+    height: 25rem;
+    gap: 1.5rem;
+  }
+  .img__slice_ccounter_about {
+    width: 30rem;
+    height: 25rem;
+  }
+}

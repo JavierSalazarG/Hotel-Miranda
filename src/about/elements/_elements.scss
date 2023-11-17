@@ -1,0 +1,39 @@
+.section__elements_about {
+  width: 100%;
+  max-width: 60rem;
+  height: 22rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 4.6rem;
+}
+
+.article__elements {
+  width: 9.8rem;
+  height: 9.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.article__elements:hover {
+  background: #bead8e;
+  box-shadow: 2px 2px 4px #bead8e60;
+}
+.article__elements:hover svg path {
+  fill: #fff;
+}
+.article__elements:hover p {
+  color: #fff;
+}
+.article__elements p {
+  color: #222;
+  text-align: center;
+  font-family: "Archivo";
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 0.875rem;
+  letter-spacing: 0.15rem;
+}

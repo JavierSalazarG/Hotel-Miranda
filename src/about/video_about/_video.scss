@@ -1,0 +1,52 @@
+.section__video_about {
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin-top: 3rem;
+}
+
+.iframe__video_about {
+  width: 20.9rem;
+  height: 11.6rem;
+}
+
+.p__video {
+  color: #222;
+  text-align: center;
+  font-family: "Old Standard TT";
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+@media (min-width: 700px) {
+  .section__video_ablout {
+    height: 40rem;
+  }
+  .iframe__video_about {
+    width: 35.9rem;
+    height: 20.6rem;
+  }
+  .p__video {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .section__video_about {
+    height: 75rem;
+  }
+  .iframe__video_about {
+    width: 80%;
+    max-width: 73.125rem;
+    height: 40.625rem;
+  }
+  .p__video {
+    font-size: 4.5rem;
+    width: 66.5rem;
+  }
+}

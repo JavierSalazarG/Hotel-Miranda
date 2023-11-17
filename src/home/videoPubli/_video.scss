@@ -1,0 +1,96 @@
+.section__video {
+  width: 100%;
+  height: 54.75rem;
+  background-color: #222;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p__intro {
+  color: #bdac8d;
+  font-family: Archivo;
+  font-size: 0.875rem;
+  letter-spacing: 0.175rem;
+  font-weight: 700;
+}
+
+.h2__title {
+  color: #fff;
+  font-family: "Old Standard TT";
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 3.75rem;
+  margin-top: 3rem;
+}
+
+.p__text {
+  color: #c2c2c2;
+  font-family: Archivo;
+  font-size: 0.875rem;
+  margin-top: 2rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.iframe__video {
+  width: 95%;
+  max-width: 23.9rem;
+  height: 16.9rem;
+  margin-top: 3rem;
+  position: relative;
+  bottom: 7rem;
+}
+
+.button__video {
+  width: 13.5rem;
+  height: 3.75rem;
+  background: #bdac8d;
+  color: #fff;
+  margin-top: 2.25rem;
+  position: relative;
+  bottom: -20rem;
+  align-self: flex-start;
+}
+
+@media (min-width: 700px) {
+  .section__video {
+    padding-left: 3.25rem;
+    padding-right: 4.25rem;
+  }
+
+  .iframe__video {
+    width: 100%;
+    max-width: none;
+    height: 23.9rem;
+    margin-top: 3rem;
+  }
+  .button__video {
+    bottom: -25rem;
+  }
+}
+@media (min-width: 1000px) {
+  .section__video {
+    height: 43.7rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .div__text_video {
+    width: 40.7rem;
+    margin-right: 7rem;
+  }
+  .button__video {
+    bottom: 0;
+  }
+  .iframe__video {
+    width: 35.625rem;
+    height: 28.75rem;
+    bottom: 0;
+    z-index: 9;
+  }
+}
