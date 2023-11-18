@@ -16,7 +16,7 @@
 <body>
     <header class="header">
         <button onclick='openNavbar()' class="button__menu"><img src="./public/img/menu.svg" /></button>
-        <a href="./index.php" class="secction__logo">
+        <a class="secction__logo">
             <h1>H</h1>
             <H2>HOTEL MIRANDA</H2>
         </a>
@@ -174,7 +174,7 @@
         <p class="p__facilities">FACILITIES</p>
         <h2 class="h2__features">Core Features</h2>
 
-        <div class="swiper mySwiper div__swiper_scrolls">
+        <div class="swiper mySwiper div__swiper_scrolls swiper-facilities">
             <div class="swiper-wrapper div__wrappers">
                 <div class="swiper-slide div__slicce_box">
                     <div class="div__slicer_imgs">
@@ -188,7 +188,7 @@
                             tempor incididunt ut labore et dolore magna..</p>
                     </div>
                 </div>
-                <div class="swiper-slide div__slicce_box">
+                <div class="swiper-slide div__slicce_box  ">
                     <div class="div__slicer_imgs">
                         <img src="./public/img/reloj.svg" />
                         <h3>02</h3>
@@ -261,8 +261,8 @@
             <p>Menu</p>
             <h2>Our Foods Menu</h2>
         </div>
-        <div class="swiper mySwiper div__swiper_menu">
-            <div class="swiper-wrapper">
+        <div class="swiper div__swiper_menu swiperMenu ">
+            <div class="swiper-wrapper weapper-swiper_menu">
                 <div class="swiper-slide div__slide_menu">
                     <article class="article__element_menu">
                         <img src="./public/img/imgs_menu/huevos&bacon.jpg" />
@@ -318,7 +318,7 @@
                 <div class="swiper-button-prev div__swiper_button_prev"></div>
             </div>
         </div>
-        <div class="swiper mySwiper  div__swiper_postres">
+        <div class="swiper swiperMenuImg  div__swiper_postres">
             <div class="swiper-wrapper">
                 <div class="swiper-slide"><img class="img__slide_postre" src="./public/img/imgs_menu/salmon.jpg"
                         alt="salmon" /></div>
@@ -502,15 +502,6 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./src/header/openNavbar.js"></script>
 
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-            pagination: {
-                el: ".swiper-pagination",
-            },
-        });
-    </script>
+    <script src="./src/scripts/home.js"></script>
+
 </body>

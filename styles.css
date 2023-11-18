@@ -942,6 +942,12 @@ input::-webkit-datetime-edit {
   margin-top: 1.5rem;
   width: 18rem;
 }
+@media (min-width: 700px) {
+  .div__titles h2 {
+    width: 100%;
+    text-align: center;
+  }
+}
 
 .div__swiper_menu {
   width: 100%;
@@ -1052,7 +1058,14 @@ input::-webkit-datetime-edit {
     align-items: center;
   }
   .article__element_menu {
-    margin-left: 30%;
+    margin-left: 0;
+  }
+  .weapper-swiper_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
   }
 }
 .setion__record {
