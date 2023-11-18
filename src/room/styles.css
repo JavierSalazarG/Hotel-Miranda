@@ -275,7 +275,7 @@
   display: grid;
   grid-auto-flow: row;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 3rem;
+  grid-gap: 1rem;
 }
 @media (min-width: 1000px) {
   .section__amenities_ul {
@@ -285,7 +285,7 @@
 }
 .section__amenities_ul_li {
   width: 100%;
-  max-width: 10rem;
+  max-width: 15rem;
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -293,14 +293,19 @@
   color: #777;
   font-family: "Roboto";
   font-size: 0.9375rem;
-  font-weight: 500;
-  gap: 0.5rem;
+  font-weight: 400;
+  gap: 0.4rem;
 }
 @media (min-width: 1000px) {
   .section__amenities_ul_li {
     font-size: 1rem;
     font-weight: 500;
+    max-width: 15rem;
   }
+}
+.section__amenities_ul_li_img {
+  width: 18px;
+  height: 18px;
 }
 
 .secction__profile {
