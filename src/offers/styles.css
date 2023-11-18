@@ -145,8 +145,8 @@
   height: 62.5rem;
   background: #fff;
   box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.281);
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -247,7 +247,8 @@
 }
 @media (min-width: 1000px) {
   .section__offer_offer_description {
-    min-width: 45%;
+    min-width: 21rem !important;
+    max-width: 45%;
   }
 }
 .section__offer_offer_description_p {
@@ -259,16 +260,16 @@
 }
 @media (min-width: 1000px) {
   .section__offer_offer_description_p {
-    max-width: 27rem;
+    max-width: 20rem;
   }
 }
 .section__offer_offer_nav {
-  width: 100%;
+  width: 90%;
   height: 13rem;
 }
 @media (min-width: 1000px) {
   .section__offer_offer_nav {
-    max-width: 25rem;
+    max-width: 20rem;
     height: 10rem;
   }
 }
@@ -285,7 +286,7 @@
 @media (min-width: 1000px) {
   .section__offer_offer_nav_ul {
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+    grid-gap: 1rem;
     height: 10rem;
     margin-top: 0;
   }
@@ -330,12 +331,12 @@
 }
 @media (min-width: 1000px) {
   .offer__div_texts {
-    height: 40rem;
+    height: 45rem;
     background: #fff;
     box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.281);
     padding-top: 3.6rem;
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     padding-bottom: 3.6rem;
     display: flex;
     flex-direction: row;
@@ -343,7 +344,7 @@
     position: relative;
     bottom: 3rem;
     border-top: 5px solid #bdac8d;
-    gap: 2rem;
+    gap: 1rem;
   }
 }
 
@@ -356,6 +357,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media (min-width: 1000px) {
+  .section__popular {
+    margin-top: 10rem;
+  }
 }
 .section__popular_p {
   color: #bdac8d;
@@ -376,6 +382,9 @@
   margin-top: 1.5rem;
 }
 .section__popular_swiper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   width: 100%;
   height: 28rem;
   margin-top: 5rem;
@@ -437,6 +446,7 @@
   line-height: 1.5rem;
   margin-top: 1rem;
   width: 18.2rem;
+  max-width: 10rem;
 }
 .section__popular_swiper__popular_slide_info_texts_div {
   display: flex;
@@ -461,6 +471,13 @@
 .wrapper_popular {
   display: flex;
   align-items: center;
+}
+@media (min-width: 1000px) {
+  .wrapper_popular {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
