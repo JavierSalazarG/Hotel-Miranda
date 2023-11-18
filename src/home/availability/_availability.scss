@@ -30,6 +30,7 @@
   font-weight: 400;
   padding-bottom: 0.5rem;
   margin-top: 2rem;
+  outline: none;
 }
 
 .input__submit {
@@ -41,6 +42,7 @@
   font-size: 0.87rem !important;
   background-color: #bead8e !important;
   border: none;
+  outline: none;
 }
 
 input::-webkit-datetime-edit {
