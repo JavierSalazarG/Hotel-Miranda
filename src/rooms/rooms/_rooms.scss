@@ -153,7 +153,8 @@
           @media (min-width: 850px) {
             position: relative;
             flex-direction: column;
-            left: 19rem;
+            left: 10rem;
+            top: 3rem;
             bottom: 5rem;
             width: fit-content;
             height: 6rem;
@@ -161,6 +162,7 @@
           @media (min-width: 1000px) {
             left: 0;
             bottom: 0;
+            top: 0;
             flex-direction: row;
             height: auto;
           }
