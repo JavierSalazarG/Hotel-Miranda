@@ -15,7 +15,7 @@ const swiper = new Swiper(".mySwiper", {
   keyboard: true,
 });
 
-const swiperFacilities = new Swiper("#swiper-facilities", {
+const swiperFacilities = new Swiper(".swiper-facilities", {
   slidesPerView: 1,
   spaceBetween: 30,
   pagination: {
